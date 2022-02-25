@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tacosmos - Pedido</title>
+    <link rel="stylesheet" href="">
+    <style></style>
+</head>
+
+<body bgcolor="black">
+    <font color="white">
+        <h1>Elige que quieres comer: </h1>
+
+        <form action="pedido.js">
+            <label for="Nombre">Escribe tu nombre taconauta:</label><br>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre"><br><br>
+            <label for="Telefono">Escribe tu numero celular:</label><br>
+            <input type="tel" name="Number" id="Number" maxlength="10"><br><br>
+
+            <label for="llevar">¿Para comer aqui o para llevar?</label><br>
+            <label for="rad1">Aqui</label>
+            <input type="radio" name="rad" id="rad1">
+            <br>
+
+            <label for="rad2">Llevar</label>
+            <input type="radio" name="rad" id="rad2">
+            <br>
+
+        </form><br><br>
+        <button><a href="./Practice 3 - Menú de taqueria.html">Volver al menú</a></button>
+        <button onclick="alert('Su pedido fue enviado con exito.');">Realizar pedido</button>
+    </font>
+</body>
+
+</html>
